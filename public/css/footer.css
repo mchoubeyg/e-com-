@@ -1,0 +1,49 @@
+.input-group-text {
+    color: #fff !important;
+    background: #5bc0de !important;
+    border-radius: 0 100px 100px 0 !important;
+
+    min-height: 38px;
+}
+li {
+    list-style: none;
+}
+
+.footersection {
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #232323;
+    position: relative;
+    margin-bottom: 0px !important;
+}
+
+.footersection p {
+    color: #fff;
+}
+
+.footersection li a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#myBtn {
+    display: none;
+
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 1;
+    border: none;
+    color: #fff;
+    background: #4cb0db;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background: #617c68;
+}

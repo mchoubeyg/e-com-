@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    color: blueviolet;
+}
+
+body {
+    background-image: url(/images/cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.custom-product {
+    margin-top: 100px !important;
+    margin-bottom: 200px;
+}

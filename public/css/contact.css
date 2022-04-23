@@ -1,0 +1,42 @@
+/*--***************************  Our contact Section start ************************ -->*/
+
+.contactus {
+    width: 100%;
+    height: 100vh;
+    padding-top: 120px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.contactus::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+        320deg,
+        rgba(99, 79, 224, 0.8) 50%,
+        rgba(222, 82, 59, 0.8) 40%
+    );
+    z-index: -1;
+}
+
+.button-form button {
+    border: 0px solid rgba(99, 79, 224, 0.8);
+    padding: 12px 35px;
+    border-radius: 20px;
+    margin: 4px;
+    color: rgba(99, 79, 224, 0);
+    outline: none;
+    background-color: #fff;
+    background: transparent;
+}
+
+form:hover .button-form button {
+    background: #fff;
+    color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+/*--***************************  Our contact Section End ************************ -->*/

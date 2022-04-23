@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #243665;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    background-color: #04aa6d !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .active {
+    background-color: #0344f6 !important;
+}
+
+.headers-scrolled {
+    background-color: #248969;
+}
+
+.detail-img {
+    height: 400px;
+}
+
+.detail {
+    margin-top: 80px !important;
+    margin-bottom: 180px;
+}
+
+.my-orders {
+    margin-top: 80px !important;
+    margin-bottom: 330px;
+}
+
+.searched-image {
+    height: 150px;
+}
+
+.trending-wrapper {
+    margin: 30px;
+}
+
+.cartlist {
+    margin-top: 80px !important;
+    margin-bottom: 400px;
+}
+
+.cartlist-image {
+    height: 150px;
+}
+
+.cart-list-divider {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
